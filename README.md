@@ -40,9 +40,9 @@ Example A20 BIOS and the necessary UEFI DXE driver are included in this repo.*
 2) Move the tape covering the Winbond flash chip out of the way, and attach your clip. https://www.ifixit.com/Teardown/Dell+XPS+13+Teardown/36157#s80987
 3) Dump your BIOS, save it under any name and file extension, (eg. "dump.rom".)
   
-  3A) Dump your BIOS twice more and save the files again with new names (eg. "dump2.rom", "dump3.rom")
+  3A. Dump your BIOS twice more and save the files again with new names (eg. "dump2.rom", "dump3.rom")
   
-  3B) Upload each to http://onlinemd5.com/ and make sure they are identical, or hash locally.
+  3B. Upload each to http://onlinemd5.com/ and make sure they are identical, or hash locally.
 
 4) Open image in UEFITool.
 5) Ctrl+F > Text tab > "bootguard" > Ok
