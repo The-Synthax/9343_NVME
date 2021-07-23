@@ -11,14 +11,23 @@ This *Will* neuter Intel BootGuard.
 Works on other systems, but will require a different method on systems with updated BootGuard PEI. Worst case scenario you can flash your dump back if it doesn't work.
 
 **You will need:**
+
 T5 Torx driver
+
 Philips #0 or similar sized driver
+
 SOIC8 programming clip
+
 SOIC8 to DIP8 adapter
+
 SPI programmer (a CH341a for about $10 on Amazon works great for this, and comes with the clip and adapter.)
+
 A BIOS dump utility of your choice. This one works well for Windows - https://github.com/nofeletru/UsbAsp-flash/releases
+
 UEFITool Old Engine https://github.com/LongSoft/UEFITool/releases/tag/0.28.0
+
 NvmExpressDXE_Small.ffs (credit to Ethaniel at Win-Raid for creating this, link to the relevant forum - https://www.win-raid.com/t3557f13-Small-NvmExpressDxe-driver.html)
+
 
 *there are alternatives to this flash method should you not have this on hand, or have other suitable options available to you, and know what you're doing.
 Example A20 BIOS and the necessary UEFI DXE driver are included in this repo.*
