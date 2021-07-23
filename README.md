@@ -1,5 +1,7 @@
 # 9343_NVME
 
+-IMPORTANT: Do not flash the example file to your own board, ESPECIALLY if you have not made multiple backups and confirmed that your backup is a perfect dump. It will either not work and brick the device due to some systems having more than one BIOS chip, OR will deactivate your Windows install and you will not be able to reactivate it without flashing back or buying a product key. You must modify your original BIOS, as your Windows key and hardware serial numbers are baked into that firmware.
+
 Read **EVERYTHING** before attempting, especially if you haven't flashed or modified firmware before. All of this is at your own risk and you are responsible if your system dies, catches fire, or your cat stages a coup.
 This will add basic support for NVME drives on the Dell XPS 13, model 9343, and likely other laptops sporting unpatched Intel BootGuard.
 There are very likely some small issues with this method, or at least missing features one may expect when compared to systems shipped with full NVME support.
