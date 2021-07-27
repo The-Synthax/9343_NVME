@@ -37,7 +37,9 @@ Example A20 BIOS and the necessary UEFI DXE driver are included in this repo.*
 
 **Steps:**
 1) Remove the bottom cover of your system. https://www.ifixit.com/Guide/Dell+XPS+13+Back+Cover+Replacement/88927
+  
   1A) Disconnect the main battery connector from the board. The CMOS battery can remain connected.
+
 2) Move the tape covering the Winbond flash chip out of the way, and attach your clip. https://www.ifixit.com/Teardown/Dell+XPS+13+Teardown/36157#s80987
 3) Dump your BIOS, save it under any name and file extension, (eg. "dump.rom".)
   
