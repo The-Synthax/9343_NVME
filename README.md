@@ -11,6 +11,7 @@ With some basic knowledge of how to remove the bottom panel, and a Google search
 This *Shouldn't*, but may change or break existing features.
 This *Will* neuter Intel BootGuard.
 Works on other systems, but will require a different method on systems with updated BootGuard PEI. Worst case scenario you can flash your dump back if it doesn't work.
+This has been tested on XPS 9343 as well as a Dell Optiplex 790. Both are capable of booting from the NVMe drive perfectly.
 
 **You will need:**
 
